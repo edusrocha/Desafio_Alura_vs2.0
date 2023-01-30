@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logoHeader">
+        <img src="Imagens/Change_Logo.png" alt="Logo do Challenger" srcset="">
+        <h1>Criptografia on line</h1>
+       </div>
+    <img src="Imagens/logoOne.png" alt="Logo da sigla Oracle Next Educacion" class="OneHeader">
+</header>
+  <main>
+    <div class="popup-wrapper">
+      <div class="popup">
+        <h2>Atenção a usar a Criptografia</h2>
+        <p>Voce só poderá usar letras minúsculas e sem acento!</p>
+      </div>
+    </div>
+    <div class="textoDigitado">
+      <div class="input">
+        <textarea id="inputTexto" placeholder="Digite seu texto" ></textarea>
+    </div>
+    <div class="buttons">
+        <div class="containerBtn">
+            <button onclick="btnCriptografa()" id="btnCriptografar">Criptografar</button>
+            <button onclick="btnDescriptografa()" id="btnDesriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </div>
+    <div class="aguardandoTexto">
+      <h2>Nenhuma mensagem encontrada</h2>
+      <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+    </div>
+    <div class="mensagemTransformada">
+      <textarea id="outputTexto" placeholder="Voce ainda não digitou nada ao lado!" ></textarea>
+    <div class="buttons">
+       <div id="btnsParaCopiar" class="containerBtn">
+         <button onclick="copiaTexto()" id="btnCriptografar">Copiar</button>
+         <button onclick="tranfereTexto()" id="btnDesriptografar">Copiar para Área de Texto</button>
+      </div>
+    </div>  
+    </div>
+  </main>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
